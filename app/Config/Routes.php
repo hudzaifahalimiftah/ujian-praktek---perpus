@@ -55,3 +55,4 @@ $routes->put('peminjaman/(:num)/pengembalian', 'Api::pengembalianBuku/$1');
 $routes->options('peminjaman', 'Api::createPeminjaman');
 $routes->options('peminjaman/(:num)', 'Api::getDetailPeminjaman/$1');
 });
+
